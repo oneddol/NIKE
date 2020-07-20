@@ -57,14 +57,18 @@ nav{position:absolute; top:200px; right:0; width:220px;}
 .side{position:fixed; top:0; right:-800px; width:800px; height:100%;
     background:#111; opacity:0.5; transform:skew(-40deg); transition:all 0.5s;}
 .side:hover{right:-500px; opacity:0.8;}
-.side .con{width:400px; height:100%; position:absolute; left:135px; background:#000;}
-.side:hover .con{left:50px;}
-.side .con > p{position:absolute; left:250px; left:250px; transition:all 0.5s;}
-.side:hover .con > p{left:50px;}
-.side .con > p > img{opacity:0.3; transition:all 0.5s;}
+.side .con > p > img{opacity:0.3;}
 .side .con > p > img:hover{opacity:1;}
+.side .con{width:400px; height:100%; position:absolute; left:135px; background:#000; transition:all 1s;}
+.side:hover .con{left:50px;}
+.side .con > p{position:absolute; left:250px}
+.side:hover .con > p{left:50px;}
 .side .con > p:nth-child(1){bottom:270px; transition:all 0.4s;}
 .side .con > p:nth-child(2){bottom:160px; transition:all 0.8s;}
 .side .con > p:nth-child(3){bottom:50px; transition:all 1.2s;}
 .side .con > p > em{color:#a0bd50; font: bold normal 16px/1.7 arial; 
-    display:block; transform:skew(40deg);}
+    display:inline-block; transform:skew(40deg);}
+
+/*------------------------화살표버튼------------------------*/
+.side .btnContents{position:absolute; bottom:40px; left:0;
+color:#b9fb05; font-size:60px; transform:skew(40deg);}
