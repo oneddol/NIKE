@@ -9,7 +9,10 @@ body, html{width:100%; height:100%; position:fixed; background:#111; font-family
 .vid{width:100%; height:100%; position:fixed; top:0; left:0;}
 .vid video{min-width:100%; min-height:100%;
     position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);}
+.blind{font-size:0; position:absolute; width:0; height:0; overflow:hidden;
+    text-indent:-9999px; line-height:0;}
 
+/*---------------------------------header----------------------------------*/
 .header{width:700px; height:100%; position:fixed;
     background:linear-gradient(-45deg, #e6fc55, #b9fb05, #97e031);
     transform:skew(-40deg); left:-420px;}
@@ -34,3 +37,9 @@ nav{position:absolute; top:200px; right:0; width:220px;}
 .nav .depth2 > li:hover{background:#b9fb05; color:#222;}
 .nav .depth2 > li > a{display:block;}
 .nav .depth2 > li > a > span{transform:skew(40deg); display:block;}
+
+.sns{position:fixed; top:60px; right:50px;}
+.sns li{display:inline-block; margin-left:20px; font-size:25px; color:#b9fb05; opacity:0.5;
+    transition:all 0.3s;}
+.sns li:hover{transform:scale(1.5); opacity:1;}
+.sns a{}
