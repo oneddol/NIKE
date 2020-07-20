@@ -39,7 +39,7 @@ nav{position:absolute; top:200px; right:0; width:220px;}
 .nav .depth2 > li > a > span{transform:skew(40deg); display:block;}
 
 .sns{position:fixed; top:60px; right:50px;}
-.sns li{display:inline-block; margin-left:20px; font-size:25px; color:#b9fb05; opacity:0.5;
+.sns li{display:inline-block; margin-left:20px; font-size:25px; color:#fff; opacity:0.5;
     transition:all 0.3s;}
 .sns li:hover{transform:scale(1.5); opacity:1;}
 .sns a{}
